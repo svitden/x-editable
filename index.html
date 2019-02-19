@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hw-x-editable</title>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="page-header">
+            <h1>x-editable</h1>
+        </div>
+
+        <ul class="list-group">
+            <li class="list-group-item">
+                <strong>Firstname:</strong> <span editable="text">John</span>
+                <span class="btn__save btn--hide">
+                    <button class="btn btn-primary">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                        <span class="visually-hidden">Save</span>
+                    </button>
+                </span>
+                <span class="btn__cancel btn--hide">
+                    <button class="btn btn-danger">
+                        <span class="glyphicon glyphicon-remove"></span>
+                        <span class="visually-hidden">Cancel</span>
+                    </button>
+                </span>                
+            </li>
+            <li class="list-group-item">
+                <strong>Lastname:</strong><a href="" editable="text"></a>
+                <span class="btn__save btn--hide">
+                    <button class="btn btn-primary">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                        <span class="visually-hidden">Save</span>
+                    </button>
+                </span>
+                <span class="btn__cancel btn--hide">
+                    <button class="btn btn-danger">
+                        <span class="glyphicon glyphicon-remove"></span>
+                        <span class="visually-hidden">Cancel</span>
+                    </button>
+                </span>
+            </li>
+            <li class="list-group-item">
+                <strong>Age:</strong> <span editable="number">10</span>
+                <span class="btn__save btn--hide">
+                    <button class="btn btn-primary">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                        <span class="visually-hidden">Save</span>
+                    </button>
+                </span>
+                <span class="btn__cancel btn--hide">
+                    <button class="btn btn-danger">
+                        <span class="glyphicon glyphicon-remove"></span>
+                        <span class="visually-hidden">Cancel</span>
+                    </button>
+                </span>
+            </li>
+            <li class="list-group-item">
+                <strong>Email:</strong> <span editable="email">John@mail.com</span>
+                <span class="btn__save btn--hide">
+                    <button class="btn btn-primary">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                        <span class="visually-hidden">Save</span>
+                    </button>
+                </span>
+                <span class="btn__cancel btn--hide">
+                    <button class="btn btn-danger">
+                        <span class="glyphicon glyphicon-remove"></span>
+                        <span class="visually-hidden">Cancel</span>
+                    </button>
+                </span>
+            </li>
+            <li class="list-group-item">
+                <strong>Password:</strong> <span editable="password">111111</span>
+                <span class="btn__save btn--hide">
+                    <button class="btn btn-primary">
+                        <span class="glyphicon glyphicon-pencil"></span>
+                        <span class="visually-hidden">Save</span>
+                    </button>
+                </span>
+                <span class="btn__cancel btn--hide">
+                    <button class="btn btn-danger">
+                        <span class="glyphicon glyphicon-remove"></span>
+                        <span class="visually-hidden">Cancel</span>
+                    </button>
+                </span>
+            </li>
+            
+        </ul>        
+        
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
